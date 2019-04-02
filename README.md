@@ -1,1 +1,3 @@
-# rirnet.github.io
+---
+permalink: /index.html
+---
