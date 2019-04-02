@@ -1,22 +1,35 @@
 .labels {
-  display: inline-block;
-  text-align: right;
-  width: 40%;
-  padding: 5px;
-  vertical-align: top;
-  margin-top: 10px;
-}
-.rightTab {
-  display: inline-block;
-  text-align: right;
-  width: 48%;
-  vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
 }
 body {
-  background-color: lightblue;
+    background-color: moccasin;
 }
 p {
-  font-family: verdana;
-  font-size: 30px;
-  text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    color: #0DFF92;
+    text-shadow: #FFFFFF 1px 0 1px; 
+    
+}
+.image {
+    display: table;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center 
+}
+.fixed{
+    text-align: center;
+    display: table-cell; 
+    vertical-align: middle;
+    width: 350px;
+    justify-content: center;
 }

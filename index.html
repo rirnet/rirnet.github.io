@@ -1,39 +1,53 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <title>Listening test</title>
+    <meta name="description" content="Listening test">
+    <meta name="author" content="Rirnet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="check.css" rel="stylesheet" type="text/css">
+  </head>
 
-  <title>Listening test</title>
-  <meta name="description" content="Listening test">
-  <meta name="author" content="Rirnet">
-  <link href="styles.css" rel="stylesheet" type="text/css">
-
-</head>
-
-<body>
-  <p>This is a paragarthphhhhhhhh.</p>
-  
-  <div align="center">
-    hello ma friend 
-  </div>
-  
-  <div align="center">  
-    <audio controls>
-      <source src="https://freesound.org/people/Koops/sounds/12504/download/12504__koops__lazer-01-hit-03.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-  
-  <div>
-    <div class="labels">
-      <label>Label</label>
+  <body>
+    <p>Listening test</p>
+    <p>Room 1</p>
+    <div class="image">
+      <img src="rum1.jpg" alt="Rum1">
     </div>
-    
-    <div class="rightClass">
-      <input type="text" />
+    <div class="container">
+      <div class="fixed">
+	<audio controls>
+	  <source src="https://freesound.org/people/Koops/sounds/12504/download/12504__koops__lazer-01-hit-03.wav" type="audio/wav">
+	    Your browser does not support the audio element.
+	</audio>
+      </div>
+      <div class="fixed">
+	<audio controls>
+	  <source src="https://freesound.org/people/Koops/sounds/12504/download/12504__koops__lazer-01-hit-03.wav" type="audio/wav">
+	    Your browser does not support the audio element.
+	</audio>
+      </div>
     </div>
-  </div>
-  
-</body>
+    <div class="container">
+      <ul>
+	<div class="fixed">
+	  <li>
+	    <input type="radio" id="f-option" name="selector">
+	    <label for="f-option"></label>
+	    <div class="check"></div>
+	  </li>
+	</div> 
+	<div class="fixed">
+	  <li>
+	    <input type="radio" id="s-option" name="selector">
+	    <label for="s-option"></label>
+	    <div class="check"><div class="inside"></div></div>
+	  </li>
+	</div> 
+      </ul>
+    </div>
+
+  </body>
 </html>
