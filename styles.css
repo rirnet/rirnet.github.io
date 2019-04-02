@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 .labels {
   display: inline-block;
   text-align: right;
@@ -6,10 +10,12 @@
   vertical-align: top;
   margin-top: 10px;
 }
-
 .rightTab {
   display: inline-block;
   text-align: right;
   width: 48%;
   vertical-align: middle;
 }
+</style>
+</head>
+</html>
