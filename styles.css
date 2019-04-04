@@ -33,3 +33,17 @@ p {
     width: 350px;
     justify-content: center;
 }
+input[type=submit] {
+    margin: 10p;
+    padding: 15px 35px;
+    background: #222222;
+    border:20;
+    border-style: dotted;
+    cursor:pointer;
+    border-radius: 0%;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: #0DFF92;
+    text-shadow: #FFFFFF 1px 0 1px; 
+}
