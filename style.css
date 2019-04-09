@@ -54,7 +54,9 @@ textarea{
 }
 button,input[type=button],input[type=submit]{
     padding-right:30px;
-    padding-left:30px
+    padding-left:30px;
+    margin-left:auto;
+    margin-right:auto;
 }
 button:hover,input[type=button]:hover,input[type=submit]:hover{
     background:#324759
