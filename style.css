@@ -177,3 +177,40 @@ grouped{
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dbdbdb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    -webkit-transition: all 0.4s ease;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #dbdbdb;
+  color: #202b38;
+}
+
+.active {
+  background-color: #161f27;
+  color: #dbdbdb;
+}
