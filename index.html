@@ -2,410 +2,254 @@
 
 <html lang="en">
   <head>
-    <meta charset="utf-8">'
+    <meta charset="utf-8">
     <meta name="referrer" content="origin">
     <title>Listening test</title>
     <meta name="description" content="Listening test">
     <meta name="author" content="Rirnet">
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <link href="check.css" rel="stylesheet" type="text/css">
+    <!--<link href="styles.css" rel="stylesheet" type="text/css"> -->
+    <!--<link href="check.css" rel="stylesheet" type="text/css"> -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css"> -->
+    
   </head>
 
   <body>
     <!--<form method="post" name="EmailForm" action="form.php">-->
       
-      <form action="http://formspree.io/felixwiberg@gmail.com" method="POST">
-	<p>Listening test</p>
-	<p>Room 1</p>
-	<div class="image">
+      <form action="http://formspree.io/eriklrssn7@gmail.com" method="POST">
+	<h1>Listening test</h1>
+	<h2>Here goes text to the testee(?)</h2>
+	<room>
+	  <h3>Room 1</h3>
+
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 	  
-	</div>
-	<div class="container">
-	  <div class="fixed">
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_input_0.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_output_0.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="0a" name="0" value="in">
-		<label for="0a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div> 
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="0b" name="0" value="out">
-		<label for="0b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div> 
-	  </ul>
-	</div>
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="0a" name="0" value="in">
+	    <label for="0a"><span class="check"></span></label>
+	    <input type="radio" id="0b" name="0" value="out">
+	    <label for="0b"><span class="check"></span></label>
+	  </grouped> 
+	</room>
 
-	<p>Room 2</p>
-	<div class="image">
+	<room>
+	  <h3>Room 2</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
-	 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_output_1.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_input_1.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="1a" name="1" value="out">
-		<label for="1a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="1b" name="1" value="in">
-		<label for="1b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="1a" name="1" value="out">
+	    <label for="1a"><span class="check"></span></label>
+	    <input type="radio" id="1b" name="1" value="in">
+	    <label for="1b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
-	<p>Room 3</p>
-	<div class="image">
+	<room>
+	  <h3>Room 3</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
-	
-	</div>
-	<div class="container">
-	  <div class="fixed">
+
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_output_2.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_input_2.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="2a" name="2" value="out">
-		<label for="2a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="2b" name="2" value="in">
-		<label for="2b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="2a" name="2" value="out">
+	    <label for="2a"><span class="check"></span></label>
+	    <input type="radio" id="2b" name="2" value="in">
+	    <label for="2b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
-	<p>Room 4</p>
-	<div class="image">
+	<room>
+	  <h3>Room 4</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_input_3.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_output_3.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="3a" name="3" value="in">
-		<label for="3a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="3b" name="3" value="out">
-		<label for="3b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
+	  </grouped>
+	  <grouped>
+	    <input type="radio" id="3a" name="3" value="in">
+	    <label for="3a"><span class="check"></span></label>
+	    <input type="radio" id="3b" name="3" value="out">
+	    <label for="3b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
-	<p>Room 5</p>
-	<div class="image">
+	<room>
+	  <h3>Room 5</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_input_4.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_output_4.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="4a" name="4" value="in">
-		<label for="4a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="4b" name="4" value="out">
-		<label for="4b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="4a" name="4" value="in">
+	    <label for="4a"><span class="check"></span></label>
+	    <input type="radio" id="4b" name="4" value="out">
+	    <label for="4b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
-	<p>Room 6</p>
-	<div class="image">
+	<room>
+	  <h3>Room 6</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_output_5.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_input_5.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="5a" name="5" value="out">
-		<label for="5a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="5b" name="5" value="in">
-		<label for="5b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
-
-	<p>Room 7</p>
-	<div class="image">
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="5a" name="5" value="out">
+	    <label for="5a"><span class="check"></span></label>
+	    <input type="radio" id="5b" name="5" value="in">
+	    <label for="5b"><span class="check"></span></label>
+	  </grouped>
+	</room>
+	
+	<room>
+	  <h3>Room 7</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_output_6.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_input_6.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="6a" name="6" value="out">
-		<label for="6a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="6b" name="6" value="in">
-		<label for="6b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="6a" name="6" value="out">
+	    <label for="6a"><span class="check"></span></label>
+	    <input type="radio" id="6b" name="6" value="in">
+	    <label for="6b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
-	<p>Room 8</p>
-	<div class="image">
+	<room>
+	  <h3>Room 8</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_output_7.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_input_7.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="7a" name="7" value="out">
-		<label for="7a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="7b" name="7" value="in">
-		<label for="7b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="7a" name="7" value="out">
+	    <label for="7a"><span class="check"></span></label>
+	    <input type="radio" id="7b" name="7" value="in">
+	    <label for="7b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
-	<p>Room 9</p>
-	<div class="image">
+	<room>
+	  <h3>Room 9</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_output_8.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_input_8.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="8a" name="8" value="out">
-		<label for="8a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="8b" name="8" value="in">
-		<label for="8b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="8a" name="8" value="out">
+	    <label for="8a"><span class="check"></span></label>
+	    <input type="radio" id="8b" name="8" value="in">
+	    <label for="8b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
-	<p>Room 10</p>
-	<div class="image">
+	<room>
+	  <h3>Room 10</h3>
 	  <img src="rum1.jpg" alt="Rum1">
-	  <br>
 
-	</div>
-	<div class="container">
-	  <div class="fixed">
+	  <grouped>
 	    <audio controls>
 	      <source src="snd/test_input_9.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	  <div class="fixed">
 	    <audio controls>
 	      <source src="snd/test_output_9.mp3" type="audio/wav">
 		Your browser does not support the audio element.
 	    </audio>
-	  </div>
-	</div>
-	<div class="container">
-	  <ul>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="9a" name="9" value="in">
-		<label for="9a"></label>
-		<div class="check"></div>
-	      </li>
-	    </div>
-	    <div class="fixed">
-	      <li>
-		<input type="radio" id="9b" name="9" value="out">
-		<label for="9b"></label>
-		<div class="check"><div class="inside"></div></div>
-	      </li>
-	    </div>
-	  </ul>
-	</div>
-
+	  </grouped>
+	  
+	  <grouped>
+	    <input type="radio" id="9a" name="9" value="in">
+	    <label for="9a"><span class="check"></span></label>
+	    <input type="radio" id="9b" name="9" value="out">
+	    <label for="9b"><span class="check"></span></label>
+	  </grouped>
+	</room>
 
 	<div class="container">
 	  <input type="submit" value="Submit">
