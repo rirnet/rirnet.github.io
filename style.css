@@ -1,0 +1,216 @@
+body{
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    line-height:1.4;
+    max-width:800px;
+    margin:20px auto;
+    padding:0 10px;
+    color:#dbdbdb;
+    background:#202b38;
+    text-rendering:optimizeLegibility;
+    text-align:center
+}
+button,input,textarea{
+    transition:background-color .1s linear,border-color .1s linear,color .1s linear,box-shadow .1s linear,transform .1s ease
+}
+h1{
+    font-size:2.2em;
+    margin-top:0
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom:12px
+}
+h1,h2,h3,h4,h5,h6,strong{
+    color:#fff
+}
+b,h1,h2,h3,h4,h5,h6,strong,th{
+    font-weight:600
+}
+button,input[type=button],input[type=checkbox],input[type=radio],input[type=submit]{
+    cursor:pointer
+}
+input:not([type=checkbox],[type=radio]),select{
+    display:block
+}
+button,input,select,textarea{
+    color:#fff;
+    background-color:#161f27;
+    font-family:inherit;
+    font-size:inherit;
+    margin-right:6px;
+    margin-bottom:6px;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    outline:none
+}
+button,input:not([type=radio],[type=checkbox]),select,textarea{
+    -webkit-appearance:none
+}
+textarea{
+    margin-right:0;
+    width:100%;
+    box-sizing:border-box;
+    resize:vertical
+}
+button,input[type=button],input[type=submit]{
+    padding-right:30px;
+    padding-left:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+button:hover,input[type=button]:hover,input[type=submit]:hover{
+    background:#324759
+}
+button:focus,input:focus,select:focus,textarea:focus{
+    box-shadow:0 0 0 2px rgba(0,150,191,.67)
+}
+button:active,input[type=button]:active,input[type=checkbox]:active,input[type=submit]:active,input[type=radio]:active{
+    transform:translateY(2px)
+}
+input:disabled{
+    cursor:not-allowed;
+    opacity:.5
+}
+::-webkit-input-placeholder{
+    color:#a9a9a9
+}
+:-ms-input-placeholder{
+    color:#a9a9a9
+}
+::-ms-input-placeholder{
+    color:#a9a9a9
+}
+::placeholder{
+    color:#a9a9a9
+}
+a{
+    text-decoration:none;
+    color:#41adff
+}
+a:hover{
+    text-decoration:underline
+}
+code,kbd{
+    background:#161f27;
+    color:#ffbe85;
+    padding:5px;
+    border-radius:6px
+}
+pre>code{
+    padding:10px;
+    display:block;
+    overflow-x:auto
+}
+img{
+    max-width:100%
+}
+hr{
+    border:none;
+    border-top:1px solid #dbdbdb
+}
+table{
+    border-collapse:collapse;
+    margin-bottom:10px;
+    width:100%
+}
+td,th{
+    padding:6px;
+    text-align:left
+}
+th{
+    border-bottom:1px solid #dbdbdb
+}
+tbody tr:nth-child(2n){
+    background-color:#161f27
+}
+grouped{
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px auto 10px;
+}
+
+[type="radio"]:checked, [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 50px;
+}
+[type="radio"]:checked + label:before, [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 8px solid #161f27;
+    border-radius: 100%;
+    background: #202b38;
+}
+[type="radio"]:checked + label:after, [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 8px solid #161f27;
+    border-radius: 100%;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dbdbdb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    -webkit-transition: all 0.4s ease;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #dbdbdb;
+  color: #202b38;
+}
+
+.active {
+  background-color: #161f27;
+  color: #dbdbdb;
+}
