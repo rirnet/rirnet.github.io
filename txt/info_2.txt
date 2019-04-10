@@ -1,0 +1,9 @@
+carpet-6-closed-cell
+plywood-3-75
+ceramic-tiles
+brickwork-smooth-pointing
+brickwork-pointing
+concrete-rough
+3.952998455938435
+13.95110080523763
+2.484698266082772

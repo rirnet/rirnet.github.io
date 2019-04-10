@@ -1,0 +1,9 @@
+carpet-15-rubbet
+concrete-porous
+anechoic4
+brickwork-smooth-pointing
+concrete-smooth
+plasterboard-25
+8.09364201961736
+12.814137566537777
+3.0704481962279666

@@ -1,0 +1,9 @@
+anechoic10
+woodwool-75-0
+plaster
+anechoic5
+plywood-solid
+anechoic4
+9.220110440228215
+10.834381106669982
+2.1564628851396415

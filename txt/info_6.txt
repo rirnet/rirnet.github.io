@@ -1,0 +1,9 @@
+wooden-floor
+plywood-12-200
+plywood-solid
+plasterboard-50
+brickwork-smooth-pointing-painted
+ceramic-tiles
+13.015349130902658
+12.708101079070975
+3.1955639722707643

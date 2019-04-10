@@ -1,0 +1,9 @@
+concrete-smooth
+anechoic5
+anechoic9
+anechoic6
+plaster
+timber-acoustic
+8.421840501154929
+6.7998334551922355
+2.7633352478344135

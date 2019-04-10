@@ -1,0 +1,9 @@
+plywood-3-75
+mahogany
+brickwork-smooth-pointing-painted
+concrete-smooth
+concrete-porous
+brickwork-smooth-pointing-painted
+4.369358685555831
+8.800025682603145
+3.6079221332744504

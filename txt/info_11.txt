@@ -1,0 +1,9 @@
+carpet-5-concrete
+timber-22-500
+plywood-12-50
+anechoic2
+brickwork-smooth-pointing-painted
+anechoic2
+13.608553857248808
+14.847719162778471
+2.3324486349894236

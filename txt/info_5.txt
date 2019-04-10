@@ -1,0 +1,9 @@
+plywood-3-75
+mahogany
+concrete-rough
+anechoic1
+plasterboard-25
+anechoic1
+9.09227292434249
+7.3192665276441895
+2.8773730904618473

@@ -1,0 +1,9 @@
+concrete-clinker
+woodwool-75-0
+brickwork-pointing
+plywood-5-50
+plywood-12-200
+concrete-clinker
+12.65601242608726
+8.638083867234606
+3.5747240129813167

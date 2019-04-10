@@ -1,0 +1,9 @@
+plywood-12-150
+woodwool-100-0
+anechoic3
+anechoic3
+brickwork-pointing
+concrete-clinker
+11.035078035407508
+11.594247780374971
+3.634495875425853

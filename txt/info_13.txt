@@ -1,0 +1,9 @@
+anechoic8
+anechoic4
+anechoic1
+timber-acoustic
+concrete-porous
+plywood-12-25
+12.186715206490117
+8.283849970129527
+2.10414921751608
