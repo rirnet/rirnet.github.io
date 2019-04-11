@@ -9,6 +9,11 @@ body{
     text-rendering:optimizeLegibility;
     text-align:center
 }
+room{
+    margin: 100px auto;
+    display: block;
+}
+
 button,input,textarea{
     transition:background-color .1s linear,border-color .1s linear,color .1s linear,box-shadow .1s linear,transform .1s ease
 }
