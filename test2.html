@@ -4,39 +4,39 @@
   <head>
     <meta charset="utf-8">
     <meta name="referrer" content="origin">
-    <title>Rirnet | Test 1</title>
-    <meta name="description" content="Test 1">
+    <title>Rirnet | Test 2</title>
+    <meta name="description" content="Test 2">
     <meta name="author" content="Rirnet">
     <!--<link href="styles.css" rel="stylesheet" type="text/css"> -->
     <!--<link href="check.css" rel="stylesheet" type="text/css"> -->
     <link href="style.css" rel="stylesheet" type="text/css">
     
   </head>
-  
+
   <body>
     <ul>
       <li><a href="https://rirnet.github.io/index.html">Home</a></li>
-      <li><a class="active" href="https://rirnet.github.io/test1.html">Test 1</a></li>
-      <li><a href="https://rirnet.github.io/test2.html">Test 2</a></li>
+      <li><a href="https://rirnet.github.io/test1.html">Test 1</a></li>
+      <li><a class="active" href="https://rirnet.github.io/test2.html">Test 2</a></li>
     </ul>
     <form action="http://formspree.io/rirnet19@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="Test 1"/>
+      <input type="hidden" name="_subject" value="Test 2"/>
       <!-- Use this for redirecting to a thank you page! <input type="hidden" name="_next" value="https://..." /> -->
       
-      <h1>Test 1: Matching two sounds by similarity</h1>
+      <h1>Test 2: Matching images and sounds</h1>
       <div style="text-align:left;">
 	<strong>Dear testee,</strong> you are here for the important task of benchmarking the performance of <strong>rirnet</strong>.
 	<br><br>
-	Below are ten different room settings with three sounds each. In the top of the three is a reference sound. The bottom two has one real sound which is from the same room as the reference one, and one synthesized version of it. Your job is to <strong>listen to the three sounds</strong> and<strong>select the sound with the most similar characteristics to the reference sound. </strong> Do this for each room and then click submit at the end. We highly recommend wearing headphones. 
-	<br><br>
-	Thank you for your participation!
+	Below are ten different room settings with two sounds each. One is a real sound, one is a synthesized version of it. Your job is <strong>look at the photo of the room</strong> and try to imagine how sounds would naturally sound in it. Then listen to the two related sounds and <strong>select the sound that you think seems natural</strong>. Do this for each room and then click submit at the end. We highly recommend wearing headphones. 
+        <br><br>
+        Thank you for your participation!
 	
 	<br><br>
 	/Erik Larsson and Felix Wiberg
       </div>
       <room>
 	<h2>Room 1</h2>
-
+	
 	<img src="rum1.jpg" alt="Rum1">
 	
 	<grouped>
@@ -57,11 +57,11 @@
 	  <label for="0b"><span class="check"></span></label>
 	</grouped> 
       </room>
-
+      
       <room>
 	<h2>Room 2</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_output_1.mp3" type="audio/wav">
@@ -80,11 +80,11 @@
 	  <label for="1b"><span class="check"></span></label>
 	</grouped>
       </room>
-
+      
       <room>
 	<h2>Room 3</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_output_2.mp3" type="audio/wav">
@@ -103,12 +103,12 @@
 	  <label for="2b"><span class="check"></span></label>
 	</grouped>
       </room>
-
+      
       <room>
 	<h2>Room 4</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
-
+	
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_input_3.mp3" type="audio/wav">
@@ -126,19 +126,19 @@
 	  <label for="3b"><span class="check"></span></label>
 	</grouped>
       </room>
-
+      
       <room>
 	<h2>Room 5</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_input_4.mp3" type="audio/wav">
 	      Your browser does not support the audio element.
 	  </audio>
 	  <audio controls preload="none">
-	    <source src="snd/test_output_4.mp3" type="audio/wav">
-	      Your browser does not support the audio element.
+	      <source src="snd/test_output_4.mp3" type="audio/wav">
+		Your browser does not support the audio element.
 	  </audio>
 	</grouped>
 	
@@ -149,11 +149,11 @@
 	  <label for="4b"><span class="check"></span></label>
 	</grouped>
       </room>
-
+      
       <room>
 	<h2>Room 6</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_output_5.mp3" type="audio/wav">
@@ -163,8 +163,8 @@
 	    <source src="snd/test_input_5.mp3" type="audio/wav">
 	      Your browser does not support the audio element.
 	  </audio>
-	</grouped>
-	
+	  </grouped>
+	  
 	<grouped>
 	  <input type="radio" id="5a" name="5" value="out">
 	  <label for="5a"><span class="check"></span></label>
@@ -176,7 +176,7 @@
       <room>
 	<h2>Room 7</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_output_6.mp3" type="audio/wav">
@@ -195,11 +195,11 @@
 	  <label for="6b"><span class="check"></span></label>
 	</grouped>
       </room>
-
+      
       <room>
 	<h2>Room 8</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_output_7.mp3" type="audio/wav">
@@ -213,16 +213,16 @@
 	
 	<grouped>
 	  <input type="radio" id="7a" name="7" value="out">
-	  <label for="7a"><span class="check"></span></label>
-	  <input type="radio" id="7b" name="7" value="in">
-	  <label for="7b"><span class="check"></span></label>
+	    <label for="7a"><span class="check"></span></label>
+	    <input type="radio" id="7b" name="7" value="in">
+	    <label for="7b"><span class="check"></span></label>
 	</grouped>
       </room>
-
+      
       <room>
 	<h2>Room 9</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_output_8.mp3" type="audio/wav">
@@ -238,33 +238,33 @@
 	  <input type="radio" id="8a" name="8" value="out">
 	  <label for="8a"><span class="check"></span></label>
 	  <input type="radio" id="8b" name="8" value="in">
-	  <label for="8b"><span class="check"></span></label>
+	    <label for="8b"><span class="check"></span></label>
 	</grouped>
       </room>
-
+      
       <room>
 	<h2>Room 10</h2>
 	<img src="rum1.jpg" alt="Rum1">
-
+	
 	<grouped>
 	  <audio controls preload="none">
 	    <source src="snd/test_input_9.mp3" type="audio/wav">
 	      Your browser does not support the audio element.
 	  </audio>
 	  <audio controls preload="none">
-	    <source src="snd/test_output_9.mp3" type="audio/wav">
-	      Your browser does not support the audio element.
+	      <source src="snd/test_output_9.mp3" type="audio/wav">
+		Your browser does not support the audio element.
 	  </audio>
 	</grouped>
 	
-	<grouped>
-	  <input type="radio" id="9a" name="9" value="in">
-	  <label for="9a"><span class="check"></span></label>
-	  <input type="radio" id="9b" name="9" value="out">
-	  <label for="9b"><span class="check"></span></label>
-	</grouped>
+	  <grouped>
+	    <input type="radio" id="9a" name="9" value="in">
+	    <label for="9a"><span class="check"></span></label>
+	    <input type="radio" id="9b" name="9" value="out">
+	    <label for="9b"><span class="check"></span></label>
+	  </grouped>
       </room>
-
+      
       <input type="submit" value="Submit">
       
     </form>
