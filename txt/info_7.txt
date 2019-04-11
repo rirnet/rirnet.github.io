@@ -1,9 +1,9 @@
-plywood-3-75
 mahogany
-breeze
-plywood-12-50
-plywood-12-50
-anechoic1
-7.432945584806552
-3.4567756529085254
-2.030704425352411
+timber-22-500
+ceramic-tiles
+plaster
+cedar
+concrete-smooth
+9.051001135268756
+14.279038522163276
+2.064442745170802

@@ -1,9 +1,9 @@
-plywood-3-75
-mahogany
-brickwork-smooth-pointing-painted
-concrete-smooth
+carpet-9-felt
+anechoic2
+anechoic9
+timber-acoustic
 concrete-porous
-brickwork-smooth-pointing-painted
-4.369358685555831
-8.800025682603145
-3.6079221332744504
+brickwork-standard
+5.415540967764263
+7.14131673750007
+3.7363851521444493

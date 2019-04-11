@@ -1,9 +1,9 @@
-carpet-5-concrete
-timber-22-500
+concrete-smooth
+concrete-smooth
+plaster
 plywood-12-50
-anechoic2
-brickwork-smooth-pointing-painted
-anechoic2
-13.608553857248808
-14.847719162778471
-2.3324486349894236
+anechoic4
+concrete-rough
+7.948180497297813
+7.111451639227749
+3.1476323420405006

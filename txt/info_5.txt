@@ -1,9 +1,9 @@
+rubber
+plywood-12-25
+plywood-5-50
 plywood-3-75
-mahogany
-concrete-rough
-anechoic1
-plasterboard-25
-anechoic1
-9.09227292434249
-7.3192665276441895
-2.8773730904618473
+plywood-solid
+plywood-12-200
+11.061986318030325
+9.951651237911957
+2.7538103373571152

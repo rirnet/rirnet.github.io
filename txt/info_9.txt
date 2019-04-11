@@ -1,9 +1,9 @@
-timber-22-500
-anechoic8
+linoleum-concrete
 anechoic10
-anechoic10
-plywood-12-200
-concrete-rough
-11.75741516481899
-4.125182209182215
-2.3498965699839314
+plasterboard-25
+plywood-3-75
+plasterboard-50
+plywood-3-75
+5.4711500520459815
+5.030214505816664
+2.797473708110069
