@@ -225,3 +225,9 @@ li a:hover:not(.active) {
   background-color: #161f27;
   color: #dbdbdb;
 }
+
+input[type="range"] {
+    width: 70%;
+}
+
+​
