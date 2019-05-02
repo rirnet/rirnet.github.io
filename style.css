@@ -228,6 +228,5 @@ li a:hover:not(.active) {
 
 input[type="range"] {
     width: 70%;
+    margin: 0 auto;
 }
-
-​
